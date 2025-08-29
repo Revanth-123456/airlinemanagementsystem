@@ -1,27 +1,61 @@
+# Step 1: Download & Extract
 
-# Airline Management System
-1) Download the zip file
-2) Extract the zip file
-3) Open the file in Java NetBean
-4) Download mysql-connector-java-8.0.28.jar, jcalender-tz-1.3.3.4.jar, rs2xml.jar libraries
-To add libraries (JAR files) to a project in NetBeans:
+Download the Airline Management System zip file.
 
-# Step 1: Open Project Properties
-1. Right-click on your project in the *Projects* window.
-2. Select *Properties*.
+Extract the contents to a folder on your computer.
 
-# Step 2: Add JAR/Folder
-1. In the *Project Properties* window, select *Libraries* under *Categories*.
-2. Click on the *Compile* tab (or *Run* tab if needed).
-3. Click *Add JAR/Folder*.
-4. Navigate to the location of your JAR files (mysql-connector-java-8.0.28.jar, etc.).
-5. Select the JAR files and click *Open*.
+Open NetBeans IDE.
 
-# Step 3: To run a NetBeans project:
-1. Open your project in NetBeans.
-2. Click the *Run Project* button (green play icon) in the toolbar or press *F6*.
+Go to File → Open Project and select the extracted project folder.
 
-If you encounter issues, ensure:
+# Step 2: Download Required Libraries
 
-- Your project has a valid main class.
-- In this project login.java is the main class run this (remember*) 
+You need the following .jar files:
+
+mysql-connector-java-8.0.28.jar (for database connection)
+
+jcalendar-tz-1.3.3.4.jar (for calendar/date picker)
+
+rs2xml.jar (for converting ResultSet to TableModel)
+
+Make sure all three are downloaded and stored in a safe folder (example: C:\Libraries).
+
+# Step 3: Add JAR Files to NetBeans Project
+
+In NetBeans, right-click on your project in the Projects window.
+
+Select Properties.
+
+In the Project Properties window, click Libraries (left panel).
+
+Choose the Compile tab.
+
+Click Add JAR/Folder.
+
+Browse to the folder where you saved the .jar files.
+
+Select all the required JARs (mysql-connector, jcalendar, rs2xml) and click Open.
+
+Click OK to close the Properties window.
+
+👉 Now your project knows where the libraries are.
+
+# Step 4: Set Main Class
+
+In the Projects window, expand your project.
+
+Locate login.java.
+
+Right-click → Select Run File (to test run).
+
+OR -
+
+If needed, go to Project Properties → Run.
+
+Set Main Class to login.
+
+# Step 5: Run the Project
+
+Click the Run Project button (green ▶ icon) in the toolbar, or press F6.
+
+The project should start with the Login screen.
