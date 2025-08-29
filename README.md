@@ -24,3 +24,4 @@ To add libraries (JAR files) to a project in NetBeans:
 If you encounter issues, ensure:
 
 - Your project has a valid main class.
+- In this project login.java is the main class run this (remember*) 
