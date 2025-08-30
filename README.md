@@ -40,7 +40,10 @@ Click OK to close the Properties window.
 
 👉 Now your project knows where the libraries are.
 
-# Step 4: Set Main Class
+
+# Step 4: Go to Mysql and do what I gave in Database
+
+# Step 5: Set Main Class
 
 In the Projects window, expand your project.
 
