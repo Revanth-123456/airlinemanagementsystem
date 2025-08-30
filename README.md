@@ -10,7 +10,7 @@ Go to File → Open Project and select the extracted project folder.
 
 # Step 2: Download Required Libraries
 
-You need the following .jar files:
+You need the following .jar files:(given) 
 
 mysql-connector-java-8.0.28.jar (for database connection)
 
@@ -41,7 +41,7 @@ Click OK to close the Properties window.
 👉 Now your project knows where the libraries are.
 
 
-# Step 4: Go to Mysql and do what I gave in Database
+# Step 4: Go to Mysql and do what I gave in Database file
 
 # Step 5: Set Main Class
 
